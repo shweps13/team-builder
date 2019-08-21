@@ -44,6 +44,7 @@
 }
 .cards-list {
   width: 100% !important;
+  margin-top: 5% !important;
 }
 .ui.cards{
   width: 100% !important;

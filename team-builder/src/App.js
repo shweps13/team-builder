@@ -17,10 +17,10 @@ function App() {
       <Header as='h1' className="App-header">Team Builder</Header>
       <Container text>
       <Header as='h2' className="Main-cont">Forms will be here</Header>
+      <TeamForm addNewTeamMemb={addNewTeamMemb} />  
       </Container>
       <Container text>
         <Card.Group>
-          <TeamForm addNewTeamMemb={addNewTeamMemb} />  
           <Cards cardsList={cards} />
         </Card.Group>
       </Container> 
