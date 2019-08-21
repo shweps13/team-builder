@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <Header as='h1' className="App-header">Team Builder</Header>
       <Container text>
-      <Header as='h2' className="Main-cont">Forms will be here</Header>
+      <Header as='h2' className="Main-cont">"New Worker" form</Header>
       <TeamForm addNewTeamMemb={addNewTeamMemb} />  
       </Container>
       <Container text>
